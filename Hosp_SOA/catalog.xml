@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8084/LabController_SOA/Lab_Controller?wsdl" uri="src/conf/xml-resources/web-service-references/Lab_Controller/wsdl/localhost_8084/LabController_SOA/Lab_Controller.wsdl"/>
+    <system systemId="http://localhost:8084/LabController_SOA/Lab_Controller?xsd=1" uri="src/conf/xml-resources/web-service-references/Lab_Controller/wsdl/localhost_8084/LabController_SOA/Lab_Controller.xsd_1"/>
+    <system systemId="http://localhost:8084/Lab1_SOA/Lab1?wsdl" uri="src/conf/xml-resources/web-service-references/Lab1/wsdl/localhost_8084/Lab1_SOA/Lab1.wsdl"/>
+    <system systemId="http://localhost:8084/Lab1_SOA/Lab1?xsd=1" uri="src/conf/xml-resources/web-service-references/Lab1/wsdl/localhost_8084/Lab1_SOA/Lab1.xsd_1"/>
+    <system systemId="http://localhost:8084/Lab2_SOA/Lab2?wsdl" uri="src/conf/xml-resources/web-service-references/Lab2/wsdl/localhost_8084/Lab2_SOA/Lab2.wsdl"/>
+    <system systemId="http://localhost:8084/Lab2_SOA/Lab2?xsd=1" uri="src/conf/xml-resources/web-service-references/Lab2/wsdl/localhost_8084/Lab2_SOA/Lab2.xsd_1"/>
+</catalog>

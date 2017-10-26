@@ -21,7 +21,7 @@ public class Lab2 {
     @WebMethod(operationName = "getRelatorioPadrao")
     public String getRelatorioPadrao(@WebParam(name = "name") String name) {
         //TODO write your implementation code here:
-        return "30 dias";
+        return "O Laboratorio 2 satisfez e a entrega demorou 30 dias";
     }
 
     /**
@@ -30,6 +30,6 @@ public class Lab2 {
     @WebMethod(operationName = "getRelatorioEmergencia")
     public String getRelatorioEmergencia(@WebParam(name = "name") String name) {
         //TODO write your implementation code here:
-        return "15 dias";
+        return "O Laboratorio 2 satisfez e a entrega demorou 15 dias";
     }
 }

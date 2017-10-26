@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://services/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://services/">
+
+<xs:element name="gerarRelatorioUrgencia" type="tns:gerarRelatorioUrgencia" />
+
+<xs:element name="gerarRelatorioUrgenciaResponse" type="tns:gerarRelatorioUrgenciaResponse" />
+
+<xs:element name="getRelatorioEmergencia" type="tns:getRelatorioEmergencia" />
+
+<xs:element name="getRelatorioEmergenciaResponse" type="tns:getRelatorioEmergenciaResponse" />
+
+<xs:complexType name="getRelatorioEmergencia">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getRelatorioEmergenciaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="gerarRelatorioUrgencia">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="gerarRelatorioUrgenciaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
