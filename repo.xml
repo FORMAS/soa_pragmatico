@@ -2,10 +2,14 @@
 <root>
     <service>
         <name>Lab1</name>
-        <url>http://localhost:8084/Lab1_SOA/Lab1?wsdl</url>
+        <url>http://localhost:8084/S1/S1?wsdl</url>
     </service>
     <service>
         <name>Lab2</name>
-        <url>http://localhost:8084/Lab2_SOA/Lab2?wsdl</url>
+        <url>http://localhost:8084/S1/S2?wsdl</url>
+    </service>
+    <service>
+        <name>Lab3</name>
+        <url>http://localhost:8084/S1/S3?wsdl</url>
     </service>
 </root>
