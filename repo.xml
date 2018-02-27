@@ -3,13 +3,25 @@
     <service>
         <name>Lab1</name>
         <url>http://localhost:8084/S1/S1?wsdl</url>
+        <what>relatorio</what>
+        <how>urgencia</how>
     </service>
     <service>
         <name>Lab2</name>
         <url>http://localhost:8084/S1/S2?wsdl</url>
+        <what>relatorio</what>
+        <how>emergencia</how>
     </service>
     <service>
         <name>Lab3</name>
         <url>http://localhost:8084/S1/S3?wsdl</url>
+        <what>dados</what>
+        <how>simples</how>
+    </service>
+    <service>
+        <name>Lab3</name>
+        <url>http://localhost:8084/S1/S3?wsdl</url>
+        <what>dados</what>
+        <how>completo</how>
     </service>
 </root>
