@@ -5,23 +5,34 @@
         <url>http://localhost:8084/S1/S1?wsdl</url>
         <what>relatorio</what>
         <how>urgencia</how>
+        <who>hospital</who>
     </service>
     <service>
         <name>Lab2</name>
         <url>http://localhost:8084/S1/S2?wsdl</url>
         <what>relatorio</what>
         <how>emergencia</how>
+        <who>hospital</who>
     </service>
     <service>
         <name>Lab3</name>
         <url>http://localhost:8084/S1/S3?wsdl</url>
         <what>dados</what>
         <how>simples</how>
+        <who>hospital</who>
     </service>
     <service>
         <name>Lab3</name>
         <url>http://localhost:8084/S1/S3?wsdl</url>
         <what>dados</what>
         <how>completo</how>
+        <who>hospital</who>
+    </service>
+    <service>
+        <name>Governo</name>
+        <url>pra_testar</url>
+        <what>dados</what>
+        <how>completo</how>
+        <who>pessoa_fisica</who>
     </service>
 </root>
