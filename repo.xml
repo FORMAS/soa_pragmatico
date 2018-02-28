@@ -17,8 +17,8 @@
     <service>
         <name>Lab3</name>
         <url>http://localhost:8084/S1/S3?wsdl</url>
-        <what>dados</what>
-        <how>simples</how>
+        <what>relatorio</what>
+        <how>padrao</how>
         <who>hospital</who>
     </service>
     <service>
