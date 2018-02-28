@@ -25,7 +25,7 @@
         <name>Lab4</name>
         <url>http://localhost:8084/S1/S3?wsdl</url>
         <what>dados</what>
-        <how>completo</how>
+        <how>simples</how>
         <who>pessoa_fisica</who>
     </service>
     <service>
