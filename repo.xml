@@ -22,7 +22,7 @@
         <who>hospital</who>
     </service>
     <service>
-        <name>Lab4</name>
+        <name>Empresa</name>
         <url>http://localhost:8084/S1/S3?wsdl</url>
         <what>dados</what>
         <how>simples</how>
