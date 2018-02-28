@@ -26,7 +26,7 @@
         <url>http://localhost:8084/S1/S3?wsdl</url>
         <what>dados</what>
         <how>completo</how>
-        <who>hospital</who>
+        <who>pessoa_juridica</who>
     </service>
     <service>
         <name>Governo</name>
